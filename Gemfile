@@ -19,6 +19,8 @@ gem 'uglifier'
 
 gem 'awesome_print'
 
+gem 'balderdash', :path => '/projects/balderdash'
+
 group :production do
   gem 'rails_stdout_logging'
 end
@@ -55,4 +57,6 @@ group :development do
   gem 'guard-livereload'
   gem 'rb-fsevent'
   gem 'growl'
+  gem 'pry'
+  gem 'debugger'
 end

@@ -17,3 +17,26 @@
 
 # Ignore compiled assets.
 /public/assets
+*~
+\#*
+.#*
+*.orig
+.bundle
+_cached_feeds.html
+tmp
+studiodata
+artistdata
+public/system/studiodata
+public/system/artistdata
+log
+db/backup
+backups
+public/stylesheets/*.css
+.idea
+.jhw-cache
+.sass-cache
+public/studiodata
+public/artistdata
+log
+coverage/*
+flog.report*
